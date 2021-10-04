@@ -52,6 +52,10 @@ p {
     margin-top: 16px;
 }
 
+.container ul {
+    font-family: Arial, Helvetica; text-align: center;
+}
+
 .container p {
     font-family: Arial, Helvetica;
     text-align: center;
