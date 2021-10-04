@@ -13,7 +13,7 @@
         })();
         </script>
         
-        <script type="text/javascript">
+        <script>
             window.onload = function() {
                 document.getElementById('contact-form').addEventListener('submit', function(event) {
                     if(getItValidates()){
@@ -35,47 +35,20 @@
         </script>
 
         <title>Contact</title>
-
-        <div class = "topnav">
-      
-            <div>
-                <a href="index.html">Home</a>
-                <a href="aboutMe.html">About me</a>
-                <a href="contact.html">Contact me</a>
-                <a href="https://mattm401.github.io/">Course page</a>
-                <a href="https://aidanchao.github.io/">Previous student</a>
-                <a href="https://justinwhamilton.github.io/">Next student</a>
-              </div>
-      
-          </div>
-
-        <h1> Contact me</h1>
     </head>
 
     <body>
+
+        <h1> Contact me</h1>
        
-<!--         <form onsubmit="return false">
-            <label> First name</label>
-            <input type ="text" placeholder="Enter your first name" id="user_fname">
-            <br><br>
-            <label> Last name</label>
-            <input type ="text" placeholder="Enter your last name" id="user_lname">
-            <br><br>
-            <label>Email</label>
-            <input type ="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-            placeholder="Enter your email address" id= "user_email">
-            <br><br>
-            <label>Phone</label>
-            <input type ="tel" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="user_phone"> 
-            <br><br>
-            <label>Message</label>
-
-            <textarea id="user_message" rows = "5"></textarea>
-            
-
-        </form>
-        <button onclick="sendContact();"> Send contact</button>
-    -->
+        <div class = "topnav">
+            <a href="index.html">Home</a>
+            <a href="aboutMe.html">About me</a>
+            <a href="contact.html">Contact me</a>
+            <a href="https://mattm401.github.io/">Course page</a>
+            <a href="https://aidanchao.github.io/">Previous student</a>
+            <a href="https://justinwhamilton.github.io/">Next student</a>
+          </div>
 
         <form id="contact-form" onsubmit=" return validateForm();">
             <input type="hidden" name="contact_number">
