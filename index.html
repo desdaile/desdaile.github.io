@@ -1,45 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-
-    <link rel= "stylesheet" href="./css/styles.css">
-    <title>My Personal Website</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dontae Esdaile | My Portfolio</title>
   </head>
   <body>
 
-    <div class = "topnav">
-      
-      <div>
+    <div class="topnav" id="myTopnav">
+      <div class="nav-contents">
         <a href="index.html">Home</a>
-        <a href="aboutMe.html">About me</a>
-        <a href="contact.html">Contact me</a>
-        <a href="https://mattm401.github.io/">Course page</a>
-        <a href="https://aidanchao.github.io/">Previous student</a>
-        <a href="https://justinwhamilton.github.io/">Next student</a>
+        <a href="https://github.com/desdaile">Github</a>
+        <a href="resume.html">Resume</a>
+        <div class="dropdown">
+          <button class="dropbtn">Class Links</button>
+          <div class="dropdown-content">
+            <a href="https://mattm401.github.io/">Course page</a>
+            <a href="https://aidanchao.github.io/">Previous student</a>
+            <a href="https://justinwhamilton.github.io/">Next student</a>
+          </div>
+        </div>
       </div>
-
-  </div>
-
-    <h1>Hi!</h1>
-    <!-- Dontae Esdaile, CISC474, Personal Web Page 1, desdaile@udel.edu -->
-
-    <h2> Welcome to my Homepage!</h2>
-
-    <p> Name (same in class): Dontae Esdaile</p>
-    
-    <img id= "hero" src="-8606649970911812688.jpg" alt="Me">
-
-    <div class = "container">
-        <p>
-            <a href="https://mattm401.github.io/">474 Course Website</a>
-        </p>
-
-        <p>
-            <a href="https://aidanchao.github.io/">Previous Student</a>
-            <a href="https://justinwhamilton.github.io/">Next Student</a>
-            <a href="https://desdaile.github.io/aboutMe.html">About Me</a>
-        </p>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+        >&#9776;</a
+      >
     </div>
 
+    <h1 id="alt-home">
+      <a href="#"> Dontae Esdaile</a>
+    </h1>
+
+    <div class="container">
+      <!-- Dontae Esdaile, CISC474, Personal Web Page 1, desdaile@udel.edu -->
+      <br/>
+      <h2>Student, Developer, and Line Cook</h2>
+      <br/>
+      <img id="hero" src="./src/1571926508082.jpg" alt="Me" />
+      <br/>
+      <h2> About Me</h2>
+      <p>
+        Hi, my name is Dontae Esdaile and I'm a 4th year Computer Science
+        student at the University of Delaware. I will be graduating in fall 2022 with a bachelors degree in
+        Computer Science with a concentraion in Systems and Networks. 
+        I'm also a part-time cook and PIC at Panda Express.
+        </br>
+        </br>
+
+        I have experince primairly in Java and C but I've started to
+        learn Javascript, HTML/CSS, and web development recently. 
+      </p>
+
+      <h2>Projects</h2>
+
+      <h3> Beat Maker</h3>
+      <img id="hero2" src="./src/beatmaker.png" alt="Beatmaker"/>
+
+      <p>
+        Beatmaker is work in progress web app that
+        allows you to make beats from the comfort of your web browser.
+        Beatmaker is being developed by a team of 5 in which I'm happy to be apart of.
+        My main responsibilities were design and general user experince. 
+        You can view this project here on <a href="https://github.com/jrreap/beatmaker">Github</a>.
+      
+      </p>
+
+      <h3>My Personal Website</h3>
+      <img id="hero2" src="./src/web.png" alt="Beatmaker"/>
+
+      <p>
+        This website was created using HTML and CSS and hosted on Github pages.
+        You can view this project here on <a href="https://github.com/desdaile/desdaile.github.io">Github</a>.
+      </p>
+      <br />
+    </div>
+
+    <div class="container">
+      <div class="footer-contents">
+        <a style ="text-align: center; "href="mailto: desdaile@udel.edu">Email Me</a>
+      
+        </br>
+        </br>
+        <div class="icon-bar">
+          <a href="https://twitter.com/dontaeesdaile" class="twitter"><i class="fa fa-twitter"></i></a>  
+          <a href="https://github.com/desdaile" class="github"><i class="fa fa-github"></i></a> 
+          <a href="https://www.linkedin.com/in/dontaeesdaile/" class="linkedin"><i class="fa fa-linkedin"></i></a> 
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>
