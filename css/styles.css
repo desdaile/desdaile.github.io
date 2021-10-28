@@ -49,7 +49,6 @@ body {
   font-weight: bold;
 }
 
-/* Style the dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -59,7 +58,6 @@ body {
   z-index: 1;
 }
 
-/* Style the links inside the dropdown */
 .dropdown-content a {
   float: none;
   color: black;
