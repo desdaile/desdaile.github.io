@@ -135,6 +135,7 @@ body {
 h1 {
   font-family: Arial, Helvetica;
   text-align: center;
+  color: white;
 }
 
 h2 {
@@ -228,4 +229,8 @@ p {
 .footer-contents {
   margin: 0 auto;
   text-align: center;
+}
+
+.active {
+  background-color: #527A9B;
 }
